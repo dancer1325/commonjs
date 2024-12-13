@@ -1,0 +1,1 @@
+https://wiki.commonjs.org/wiki/Coding_Standards
