@@ -6,19 +6,36 @@ title: CommonJS API
 CommonJS
 ========
 
-JavaScript is a powerful object oriented language with some of the fastest dynamic language interpreters around. The official JavaScript specification defines APIs for some objects that are useful for building browser-based applications. However, the spec does not define a standard library that is useful for building a broader range of applications.
+* JS
+  * == powerful OO language /
+    * one of the fastest dynamic language interpreters
+  * official JS specification
+    * defines APIs / 
+      * uses
+        * build browser-based applications 
+    * ❌NOT define a standard library ❌
+      * uses
+        * build a broader range of applications
 
-The CommonJS API will fill that gap by defining APIs that handle many common application needs, ultimately providing a standard library as rich as those of Python, Ruby and Java. The intention is that an application developer will be able to write an application using the CommonJS APIs and then run that application across different JavaScript interpreters and host environments. With CommonJS-compliant systems, you can use JavaScript to write:
-    
-* Server-side JavaScript applications
-* Command line tools
-* Desktop GUI-based applications
-* Hybrid applications (Titanium, Adobe AIR)
+* CommonJS API
+  * define APIs /
+    * handle many common application needs
+  * 💡define a standard library 💡
+    * 's rich == Python, Ruby and Java's standard libraries rich 
+  * goal
+    * write an application -- via -- CommonJS APIs
+    * run this application | DIFFERENT JS interpreters & host environments 
+  * allows
+    * writing
+      * Server-side JS applications
+      * CL tools
+      * Desktop GUI-based applications
+      * Hybrid applications (Titanium, Adobe AIR)
 
-Read an [additional introduction by Kris Kowal at Ars Technica](http://arstechnica.com/web/news/2009/12/commonjs-effort-sets-javascript-on-path-for-world-domination.ars).
-
-Current version: [0.1](specs/0.1.html)
-In development: [0.5](specs/0.5.html)
+* see [additional introduction](http://arstechnica.com/web/news/2009/12/commonjs-effort-sets-javascript-on-path-for-world-domination.ars)
+* versions
+  * Current [0.1](specs/0.1.html)
+  * development: [0.5](specs/0.5.html)
     
 Implementations
 ---------------
